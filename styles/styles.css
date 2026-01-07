@@ -153,8 +153,7 @@ h1.glow-text {
 #stars,
 #stars2,
 #stars3,
-.meteors-container,
-.comet {
+.meteors-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -277,6 +276,7 @@ h1.glow-text {
 
 /* --- 3. COMETS --- */
 .comet {
+  position: absolute;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -315,7 +315,6 @@ h1.glow-text {
   background: linear-gradient(to left, var(--neon-purple), transparent 80%);
   width: 400px;
 }
-
 @keyframes cometMove {
   0% {
     transform: translate(0, 0) scale(0.8);
